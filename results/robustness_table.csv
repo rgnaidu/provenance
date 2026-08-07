@@ -1,0 +1,505 @@
+file,asset_id,issuer,captured_at,hard,soft,orb_matches,result
+A000__crop_10pct.jpg,A000,northcam,2026-04-21T06:48:00Z,False,True,42,SOFT VERIFIED
+A000__original.jpg,A000,northcam,2026-04-21T06:48:00Z,True,False,0,VERIFIED
+A000__platform_strip.jpg,A000,northcam,2026-04-21T06:48:00Z,False,True,108,SOFT VERIFIED
+A000__recompress_q40.jpg,A000,northcam,2026-04-21T06:48:00Z,False,True,74,SOFT VERIFIED
+A000__resize_640.jpg,A000,northcam,2026-04-21T06:48:00Z,False,True,52,SOFT VERIFIED
+A000__screenshot_sim.jpg,A000,northcam,2026-04-21T06:48:00Z,False,True,54,SOFT VERIFIED
+A001__crop_10pct.jpg,A001,Unknown,Unknown,False,False,0,UNKNOWN
+A001__original.jpg,A001,Unknown,Unknown,False,False,0,UNKNOWN
+A001__platform_strip.jpg,A001,Unknown,Unknown,False,False,0,UNKNOWN
+A001__recompress_q40.jpg,A001,Unknown,Unknown,False,False,0,UNKNOWN
+A001__resize_640.jpg,A001,Unknown,Unknown,False,False,0,UNKNOWN
+A001__screenshot_sim.jpg,A001,Unknown,Unknown,False,False,0,UNKNOWN
+A002__crop_10pct.jpg,A002,northcam,2026-05-18T19:12:00Z,False,True,54,SOFT VERIFIED
+A002__original.jpg,A002,northcam,2026-05-18T19:12:00Z,True,False,0,VERIFIED
+A002__platform_strip.jpg,A002,northcam,2026-05-18T19:12:00Z,False,True,132,SOFT VERIFIED
+A002__recompress_q40.jpg,A002,northcam,2026-05-18T19:12:00Z,False,True,88,SOFT VERIFIED
+A002__resize_640.jpg,A002,northcam,2026-05-18T19:12:00Z,False,True,72,SOFT VERIFIED
+A002__screenshot_sim.jpg,A002,northcam,2026-05-18T19:12:00Z,False,True,76,SOFT VERIFIED
+A003__crop_10pct.jpg,A003,northcam,2026-02-27T17:17:00Z,False,True,108,SOFT VERIFIED
+A003__original.jpg,A003,northcam,2026-02-27T17:17:00Z,True,False,0,VERIFIED
+A003__platform_strip.jpg,A003,northcam,2026-02-27T17:17:00Z,False,True,208,SOFT VERIFIED
+A003__recompress_q40.jpg,A003,northcam,2026-02-27T17:17:00Z,False,True,149,SOFT VERIFIED
+A003__resize_640.jpg,A003,northcam,2026-02-27T17:17:00Z,False,True,86,SOFT VERIFIED
+A003__screenshot_sim.jpg,A003,northcam,2026-02-27T17:17:00Z,False,True,89,SOFT VERIFIED
+A004__crop_10pct.jpg,A004,northcam,2026-03-11T18:30:00Z,False,True,79,SOFT VERIFIED
+A004__original.jpg,A004,northcam,2026-03-11T18:30:00Z,True,False,0,VERIFIED
+A004__platform_strip.jpg,A004,northcam,2026-03-11T18:30:00Z,False,True,180,SOFT VERIFIED
+A004__recompress_q40.jpg,A004,northcam,2026-03-11T18:30:00Z,False,True,119,SOFT VERIFIED
+A004__resize_640.jpg,A004,northcam,2026-03-11T18:30:00Z,False,True,83,SOFT VERIFIED
+A004__screenshot_sim.jpg,A004,northcam,2026-03-11T18:30:00Z,False,True,85,SOFT VERIFIED
+A005__crop_10pct.jpg,A005,Unknown,Unknown,False,False,0,UNKNOWN
+A005__original.jpg,A005,Unknown,Unknown,False,False,0,UNKNOWN
+A005__platform_strip.jpg,A005,Unknown,Unknown,False,False,0,UNKNOWN
+A005__recompress_q40.jpg,A005,Unknown,Unknown,False,False,0,UNKNOWN
+A005__resize_640.jpg,A005,Unknown,Unknown,False,False,0,UNKNOWN
+A005__screenshot_sim.jpg,A005,Unknown,Unknown,False,False,0,UNKNOWN
+A006__crop_10pct.jpg,A006,Unknown,Unknown,False,False,0,UNKNOWN
+A006__original.jpg,A006,Unknown,Unknown,False,False,0,UNKNOWN
+A006__platform_strip.jpg,A006,Unknown,Unknown,False,False,0,UNKNOWN
+A006__recompress_q40.jpg,A006,Unknown,Unknown,False,False,0,UNKNOWN
+A006__resize_640.jpg,A006,Unknown,Unknown,False,False,0,UNKNOWN
+A006__screenshot_sim.jpg,A006,Unknown,Unknown,False,False,0,UNKNOWN
+A007__crop_10pct.jpg,A007,northcam,2026-02-16T06:20:00Z,False,True,61,SOFT VERIFIED
+A007__original.jpg,A007,northcam,2026-02-16T06:20:00Z,True,False,0,VERIFIED
+A007__platform_strip.jpg,A007,northcam,2026-02-16T06:20:00Z,False,True,126,SOFT VERIFIED
+A007__recompress_q40.jpg,A007,northcam,2026-02-16T06:20:00Z,False,True,93,SOFT VERIFIED
+A007__resize_640.jpg,A007,northcam,2026-02-16T06:20:00Z,False,True,68,SOFT VERIFIED
+A007__screenshot_sim.jpg,A007,northcam,2026-02-16T06:20:00Z,False,True,78,SOFT VERIFIED
+A008__crop_10pct.jpg,A008,Unknown,Unknown,False,False,0,UNKNOWN
+A008__original.jpg,A008,Unknown,Unknown,False,False,0,UNKNOWN
+A008__platform_strip.jpg,A008,Unknown,Unknown,False,False,0,UNKNOWN
+A008__recompress_q40.jpg,A008,Unknown,Unknown,False,False,0,UNKNOWN
+A008__resize_640.jpg,A008,Unknown,Unknown,False,False,0,UNKNOWN
+A008__screenshot_sim.jpg,A008,Unknown,Unknown,False,False,0,UNKNOWN
+A009__crop_10pct.jpg,A009,northcam,2026-02-24T08:27:00Z,False,True,75,SOFT VERIFIED
+A009__original.jpg,A009,northcam,2026-02-24T08:27:00Z,True,False,0,VERIFIED
+A009__platform_strip.jpg,A009,northcam,2026-02-24T08:27:00Z,False,True,207,SOFT VERIFIED
+A009__recompress_q40.jpg,A009,northcam,2026-02-24T08:27:00Z,False,True,147,SOFT VERIFIED
+A009__resize_640.jpg,A009,northcam,2026-02-24T08:27:00Z,False,True,96,SOFT VERIFIED
+A009__screenshot_sim.jpg,A009,northcam,2026-02-24T08:27:00Z,False,True,101,SOFT VERIFIED
+A010__crop_10pct.jpg,A010,Unknown,Unknown,False,False,0,UNKNOWN
+A010__original.jpg,A010,Unknown,Unknown,False,False,0,UNKNOWN
+A010__platform_strip.jpg,A010,Unknown,Unknown,False,False,0,UNKNOWN
+A010__recompress_q40.jpg,A010,Unknown,Unknown,False,False,0,UNKNOWN
+A010__resize_640.jpg,A010,Unknown,Unknown,False,False,0,UNKNOWN
+A010__screenshot_sim.jpg,A010,Unknown,Unknown,False,False,0,UNKNOWN
+A011__crop_10pct.jpg,A011,northcam,2026-03-18T20:52:00Z,False,True,48,SOFT VERIFIED
+A011__original.jpg,A011,northcam,2026-03-18T20:52:00Z,True,False,0,VERIFIED
+A011__platform_strip.jpg,A011,northcam,2026-03-18T20:52:00Z,False,True,157,SOFT VERIFIED
+A011__recompress_q40.jpg,A011,northcam,2026-03-18T20:52:00Z,False,True,125,SOFT VERIFIED
+A011__resize_640.jpg,A011,northcam,2026-03-18T20:52:00Z,False,True,71,SOFT VERIFIED
+A011__screenshot_sim.jpg,A011,northcam,2026-03-18T20:52:00Z,False,True,80,SOFT VERIFIED
+A012__crop_10pct.jpg,A012,Unknown,Unknown,False,False,0,UNKNOWN
+A012__original.jpg,A012,Unknown,Unknown,False,False,0,UNKNOWN
+A012__platform_strip.jpg,A012,Unknown,Unknown,False,False,0,UNKNOWN
+A012__recompress_q40.jpg,A012,Unknown,Unknown,False,False,0,UNKNOWN
+A012__resize_640.jpg,A012,Unknown,Unknown,False,False,0,UNKNOWN
+A012__screenshot_sim.jpg,A012,Unknown,Unknown,False,False,0,UNKNOWN
+A013__crop_10pct.jpg,A013,Unknown,Unknown,False,False,0,UNKNOWN
+A013__original.jpg,A013,Unknown,Unknown,False,False,0,UNKNOWN
+A013__platform_strip.jpg,A013,Unknown,Unknown,False,False,0,UNKNOWN
+A013__recompress_q40.jpg,A013,Unknown,Unknown,False,False,0,UNKNOWN
+A013__resize_640.jpg,A013,Unknown,Unknown,False,False,0,UNKNOWN
+A013__screenshot_sim.jpg,A013,Unknown,Unknown,False,False,0,UNKNOWN
+A014__crop_10pct.jpg,A014,northcam,2026-03-21T18:51:00Z,False,True,66,SOFT VERIFIED
+A014__original.jpg,A014,northcam,2026-03-21T18:51:00Z,True,False,0,VERIFIED
+A014__platform_strip.jpg,A014,northcam,2026-03-21T18:51:00Z,False,True,172,SOFT VERIFIED
+A014__recompress_q40.jpg,A014,northcam,2026-03-21T18:51:00Z,False,True,120,SOFT VERIFIED
+A014__resize_640.jpg,A014,northcam,2026-03-21T18:51:00Z,False,True,107,SOFT VERIFIED
+A014__screenshot_sim.jpg,A014,northcam,2026-03-21T18:51:00Z,False,True,81,SOFT VERIFIED
+A015__crop_10pct.jpg,A015,northcam,2026-04-26T16:43:00Z,False,True,109,SOFT VERIFIED
+A015__original.jpg,A015,northcam,2026-04-26T16:43:00Z,True,False,0,VERIFIED
+A015__platform_strip.jpg,A015,northcam,2026-04-26T16:43:00Z,False,True,214,SOFT VERIFIED
+A015__recompress_q40.jpg,A015,northcam,2026-04-26T16:43:00Z,False,True,160,SOFT VERIFIED
+A015__resize_640.jpg,A015,northcam,2026-04-26T16:43:00Z,False,True,101,SOFT VERIFIED
+A015__screenshot_sim.jpg,A015,northcam,2026-04-26T16:43:00Z,False,True,96,SOFT VERIFIED
+A016__crop_10pct.jpg,A016,northcam,2026-01-16T18:28:00Z,False,True,63,SOFT VERIFIED
+A016__original.jpg,A016,northcam,2026-01-16T18:28:00Z,True,False,0,VERIFIED
+A016__platform_strip.jpg,A016,northcam,2026-01-16T18:28:00Z,False,True,151,SOFT VERIFIED
+A016__recompress_q40.jpg,A016,northcam,2026-01-16T18:28:00Z,False,True,86,SOFT VERIFIED
+A016__resize_640.jpg,A016,northcam,2026-01-16T18:28:00Z,False,True,94,SOFT VERIFIED
+A016__screenshot_sim.jpg,A016,northcam,2026-01-16T18:28:00Z,False,True,74,SOFT VERIFIED
+A017__crop_10pct.jpg,A017,northcam,2026-03-17T09:42:00Z,False,True,74,SOFT VERIFIED
+A017__original.jpg,A017,northcam,2026-03-17T09:42:00Z,True,False,0,VERIFIED
+A017__platform_strip.jpg,A017,northcam,2026-03-17T09:42:00Z,False,True,160,SOFT VERIFIED
+A017__recompress_q40.jpg,A017,northcam,2026-03-17T09:42:00Z,False,True,89,SOFT VERIFIED
+A017__resize_640.jpg,A017,northcam,2026-03-17T09:42:00Z,False,True,79,SOFT VERIFIED
+A017__screenshot_sim.jpg,A017,northcam,2026-03-17T09:42:00Z,False,True,70,SOFT VERIFIED
+A018__crop_10pct.jpg,A018,northcam,2026-01-22T13:44:00Z,False,True,62,SOFT VERIFIED
+A018__original.jpg,A018,northcam,2026-01-22T13:44:00Z,True,False,0,VERIFIED
+A018__platform_strip.jpg,A018,northcam,2026-01-22T13:44:00Z,False,True,147,SOFT VERIFIED
+A018__recompress_q40.jpg,A018,northcam,2026-01-22T13:44:00Z,False,True,73,SOFT VERIFIED
+A018__resize_640.jpg,A018,northcam,2026-01-22T13:44:00Z,False,True,58,SOFT VERIFIED
+A018__screenshot_sim.jpg,A018,northcam,2026-01-22T13:44:00Z,False,True,46,SOFT VERIFIED
+A019__crop_10pct.jpg,A019,northcam,2026-02-25T19:24:00Z,False,True,59,SOFT VERIFIED
+A019__original.jpg,A019,northcam,2026-02-25T19:24:00Z,True,False,0,VERIFIED
+A019__platform_strip.jpg,A019,northcam,2026-02-25T19:24:00Z,False,True,132,SOFT VERIFIED
+A019__recompress_q40.jpg,A019,northcam,2026-02-25T19:24:00Z,False,True,95,SOFT VERIFIED
+A019__resize_640.jpg,A019,northcam,2026-02-25T19:24:00Z,False,True,63,SOFT VERIFIED
+A019__screenshot_sim.jpg,A019,northcam,2026-02-25T19:24:00Z,False,True,59,SOFT VERIFIED
+A020__crop_10pct.jpg,A020,ghostsign,2026-05-21T20:56:00Z,False,False,0,UNKNOWN
+A020__original.jpg,A020,ghostsign,2026-05-21T20:56:00Z,False,False,0,UNKNOWN
+A020__platform_strip.jpg,A020,ghostsign,2026-05-21T20:56:00Z,False,False,0,UNKNOWN
+A020__recompress_q40.jpg,A020,ghostsign,2026-05-21T20:56:00Z,False,False,0,UNKNOWN
+A020__resize_640.jpg,A020,ghostsign,2026-05-21T20:56:00Z,False,False,0,UNKNOWN
+A020__screenshot_sim.jpg,A020,ghostsign,2026-05-21T20:56:00Z,False,False,0,UNKNOWN
+A021__crop_10pct.jpg,A021,northcam,2026-06-10T17:53:00Z,False,False,30,ALTERED
+A021__original.jpg,A021,northcam,2026-06-10T17:53:00Z,True,False,0,VERIFIED
+A021__platform_strip.jpg,A021,northcam,2026-06-10T17:53:00Z,False,True,88,SOFT VERIFIED
+A021__recompress_q40.jpg,A021,northcam,2026-06-10T17:53:00Z,False,True,45,SOFT VERIFIED
+A021__resize_640.jpg,A021,northcam,2026-06-10T17:53:00Z,False,True,50,SOFT VERIFIED
+A021__screenshot_sim.jpg,A021,northcam,2026-06-10T17:53:00Z,False,False,39,ALTERED
+A022__crop_10pct.jpg,A022,northcam,2026-02-26T09:52:00Z,False,True,109,SOFT VERIFIED
+A022__original.jpg,A022,northcam,2026-02-26T09:52:00Z,True,False,0,VERIFIED
+A022__platform_strip.jpg,A022,northcam,2026-02-26T09:52:00Z,False,True,235,SOFT VERIFIED
+A022__recompress_q40.jpg,A022,northcam,2026-02-26T09:52:00Z,False,True,160,SOFT VERIFIED
+A022__resize_640.jpg,A022,northcam,2026-02-26T09:52:00Z,False,True,85,SOFT VERIFIED
+A022__screenshot_sim.jpg,A022,northcam,2026-02-26T09:52:00Z,False,True,121,SOFT VERIFIED
+A023__crop_10pct.jpg,A023,ghostsign,2026-02-21T19:30:00Z,False,False,0,UNKNOWN
+A023__original.jpg,A023,ghostsign,2026-02-21T19:30:00Z,False,False,0,UNKNOWN
+A023__platform_strip.jpg,A023,ghostsign,2026-02-21T19:30:00Z,False,False,0,UNKNOWN
+A023__recompress_q40.jpg,A023,ghostsign,2026-02-21T19:30:00Z,False,False,0,UNKNOWN
+A023__resize_640.jpg,A023,ghostsign,2026-02-21T19:30:00Z,False,False,0,UNKNOWN
+A023__screenshot_sim.jpg,A023,ghostsign,2026-02-21T19:30:00Z,False,False,0,UNKNOWN
+A024__crop_10pct.jpg,A024,Unknown,Unknown,False,False,0,UNKNOWN
+A024__original.jpg,A024,Unknown,Unknown,False,False,0,UNKNOWN
+A024__platform_strip.jpg,A024,Unknown,Unknown,False,False,0,UNKNOWN
+A024__recompress_q40.jpg,A024,Unknown,Unknown,False,False,0,UNKNOWN
+A024__resize_640.jpg,A024,Unknown,Unknown,False,False,0,UNKNOWN
+A024__screenshot_sim.jpg,A024,Unknown,Unknown,False,False,0,UNKNOWN
+A025__crop_10pct.jpg,A025,northcam,2026-05-13T10:51:00Z,False,False,35,ALTERED
+A025__original.jpg,A025,northcam,2026-05-13T10:51:00Z,True,False,0,VERIFIED
+A025__platform_strip.jpg,A025,northcam,2026-05-13T10:51:00Z,False,True,89,SOFT VERIFIED
+A025__recompress_q40.jpg,A025,northcam,2026-05-13T10:51:00Z,False,True,48,SOFT VERIFIED
+A025__resize_640.jpg,A025,northcam,2026-05-13T10:51:00Z,False,True,43,SOFT VERIFIED
+A025__screenshot_sim.jpg,A025,northcam,2026-05-13T10:51:00Z,False,True,54,SOFT VERIFIED
+A026__crop_10pct.jpg,A026,Unknown,Unknown,False,False,0,UNKNOWN
+A026__original.jpg,A026,Unknown,Unknown,False,False,0,UNKNOWN
+A026__platform_strip.jpg,A026,Unknown,Unknown,False,False,0,UNKNOWN
+A026__recompress_q40.jpg,A026,Unknown,Unknown,False,False,0,UNKNOWN
+A026__resize_640.jpg,A026,Unknown,Unknown,False,False,0,UNKNOWN
+A026__screenshot_sim.jpg,A026,Unknown,Unknown,False,False,0,UNKNOWN
+A027__crop_10pct.jpg,A027,northcam,2026-05-19T20:33:00Z,False,True,99,SOFT VERIFIED
+A027__original.jpg,A027,northcam,2026-05-19T20:33:00Z,True,False,0,VERIFIED
+A027__platform_strip.jpg,A027,northcam,2026-05-19T20:33:00Z,False,True,215,SOFT VERIFIED
+A027__recompress_q40.jpg,A027,northcam,2026-05-19T20:33:00Z,False,True,172,SOFT VERIFIED
+A027__resize_640.jpg,A027,northcam,2026-05-19T20:33:00Z,False,True,109,SOFT VERIFIED
+A027__screenshot_sim.jpg,A027,northcam,2026-05-19T20:33:00Z,False,True,129,SOFT VERIFIED
+A028__crop_10pct.jpg,A028,Unknown,Unknown,False,False,0,UNKNOWN
+A028__original.jpg,A028,Unknown,Unknown,False,False,0,UNKNOWN
+A028__platform_strip.jpg,A028,Unknown,Unknown,False,False,0,UNKNOWN
+A028__recompress_q40.jpg,A028,Unknown,Unknown,False,False,0,UNKNOWN
+A028__resize_640.jpg,A028,Unknown,Unknown,False,False,0,UNKNOWN
+A028__screenshot_sim.jpg,A028,Unknown,Unknown,False,False,0,UNKNOWN
+A029__crop_10pct.jpg,A029,Unknown,Unknown,False,False,0,UNKNOWN
+A029__original.jpg,A029,Unknown,Unknown,False,False,0,UNKNOWN
+A029__platform_strip.jpg,A029,Unknown,Unknown,False,False,0,UNKNOWN
+A029__recompress_q40.jpg,A029,Unknown,Unknown,False,False,0,UNKNOWN
+A029__resize_640.jpg,A029,Unknown,Unknown,False,False,0,UNKNOWN
+A029__screenshot_sim.jpg,A029,Unknown,Unknown,False,False,0,UNKNOWN
+A030__crop_10pct.jpg,A030,northcam,2026-02-20T13:52:00Z,False,True,129,SOFT VERIFIED
+A030__original.jpg,A030,northcam,2026-02-20T13:52:00Z,True,False,0,VERIFIED
+A030__platform_strip.jpg,A030,northcam,2026-02-20T13:52:00Z,False,True,216,SOFT VERIFIED
+A030__recompress_q40.jpg,A030,northcam,2026-02-20T13:52:00Z,False,True,158,SOFT VERIFIED
+A030__resize_640.jpg,A030,northcam,2026-02-20T13:52:00Z,False,True,97,SOFT VERIFIED
+A030__screenshot_sim.jpg,A030,northcam,2026-02-20T13:52:00Z,False,True,117,SOFT VERIFIED
+A031__crop_10pct.jpg,A031,northcam,2026-01-10T16:13:00Z,False,True,62,SOFT VERIFIED
+A031__original.jpg,A031,northcam,2026-01-10T16:13:00Z,True,False,0,VERIFIED
+A031__platform_strip.jpg,A031,northcam,2026-01-10T16:13:00Z,False,True,116,SOFT VERIFIED
+A031__recompress_q40.jpg,A031,northcam,2026-01-10T16:13:00Z,False,True,91,SOFT VERIFIED
+A031__resize_640.jpg,A031,northcam,2026-01-10T16:13:00Z,False,True,67,SOFT VERIFIED
+A031__screenshot_sim.jpg,A031,northcam,2026-01-10T16:13:00Z,False,True,64,SOFT VERIFIED
+A032__crop_10pct.jpg,A032,Unknown,Unknown,False,False,0,UNKNOWN
+A032__original.jpg,A032,Unknown,Unknown,False,False,0,UNKNOWN
+A032__platform_strip.jpg,A032,Unknown,Unknown,False,False,0,UNKNOWN
+A032__recompress_q40.jpg,A032,Unknown,Unknown,False,False,0,UNKNOWN
+A032__resize_640.jpg,A032,Unknown,Unknown,False,False,0,UNKNOWN
+A032__screenshot_sim.jpg,A032,Unknown,Unknown,False,False,0,UNKNOWN
+A033__crop_10pct.jpg,A033,Unknown,Unknown,False,False,0,UNKNOWN
+A033__original.jpg,A033,Unknown,Unknown,False,False,0,UNKNOWN
+A033__platform_strip.jpg,A033,Unknown,Unknown,False,False,0,UNKNOWN
+A033__recompress_q40.jpg,A033,Unknown,Unknown,False,False,0,UNKNOWN
+A033__resize_640.jpg,A033,Unknown,Unknown,False,False,0,UNKNOWN
+A033__screenshot_sim.jpg,A033,Unknown,Unknown,False,False,0,UNKNOWN
+A034__crop_10pct.jpg,A034,northcam,2026-02-28T09:58:00Z,False,False,37,ALTERED
+A034__original.jpg,A034,northcam,2026-02-28T09:58:00Z,True,False,0,VERIFIED
+A034__platform_strip.jpg,A034,northcam,2026-02-28T09:58:00Z,False,True,141,SOFT VERIFIED
+A034__recompress_q40.jpg,A034,northcam,2026-02-28T09:58:00Z,False,True,101,SOFT VERIFIED
+A034__resize_640.jpg,A034,northcam,2026-02-28T09:58:00Z,False,True,83,SOFT VERIFIED
+A034__screenshot_sim.jpg,A034,northcam,2026-02-28T09:58:00Z,False,True,76,SOFT VERIFIED
+A035__crop_10pct.jpg,A035,ghostsign,2026-06-13T06:25:00Z,False,False,0,UNKNOWN
+A035__original.jpg,A035,ghostsign,2026-06-13T06:25:00Z,False,False,0,UNKNOWN
+A035__platform_strip.jpg,A035,ghostsign,2026-06-13T06:25:00Z,False,False,0,UNKNOWN
+A035__recompress_q40.jpg,A035,ghostsign,2026-06-13T06:25:00Z,False,False,0,UNKNOWN
+A035__resize_640.jpg,A035,ghostsign,2026-06-13T06:25:00Z,False,False,0,UNKNOWN
+A035__screenshot_sim.jpg,A035,ghostsign,2026-06-13T06:25:00Z,False,False,0,UNKNOWN
+A036__crop_10pct.jpg,A036,northcam,2026-01-15T14:34:00Z,False,True,75,SOFT VERIFIED
+A036__original.jpg,A036,northcam,2026-01-15T14:34:00Z,True,False,0,VERIFIED
+A036__platform_strip.jpg,A036,northcam,2026-01-15T14:34:00Z,False,True,131,SOFT VERIFIED
+A036__recompress_q40.jpg,A036,northcam,2026-01-15T14:34:00Z,False,True,83,SOFT VERIFIED
+A036__resize_640.jpg,A036,northcam,2026-01-15T14:34:00Z,False,True,65,SOFT VERIFIED
+A036__screenshot_sim.jpg,A036,northcam,2026-01-15T14:34:00Z,False,True,76,SOFT VERIFIED
+A037__crop_10pct.jpg,A037,Unknown,Unknown,False,False,0,UNKNOWN
+A037__original.jpg,A037,Unknown,Unknown,False,False,0,UNKNOWN
+A037__platform_strip.jpg,A037,Unknown,Unknown,False,False,0,UNKNOWN
+A037__recompress_q40.jpg,A037,Unknown,Unknown,False,False,0,UNKNOWN
+A037__resize_640.jpg,A037,Unknown,Unknown,False,False,0,UNKNOWN
+A037__screenshot_sim.jpg,A037,Unknown,Unknown,False,False,0,UNKNOWN
+A038__crop_10pct.jpg,A038,Unknown,Unknown,False,False,0,UNKNOWN
+A038__original.jpg,A038,Unknown,Unknown,False,False,0,UNKNOWN
+A038__platform_strip.jpg,A038,Unknown,Unknown,False,False,0,UNKNOWN
+A038__recompress_q40.jpg,A038,Unknown,Unknown,False,False,0,UNKNOWN
+A038__resize_640.jpg,A038,Unknown,Unknown,False,False,0,UNKNOWN
+A038__screenshot_sim.jpg,A038,Unknown,Unknown,False,False,0,UNKNOWN
+A039__crop_10pct.jpg,A039,ghostsign,2026-03-18T11:19:00Z,False,False,0,UNKNOWN
+A039__original.jpg,A039,ghostsign,2026-03-18T11:19:00Z,False,False,0,UNKNOWN
+A039__platform_strip.jpg,A039,ghostsign,2026-03-18T11:19:00Z,False,False,0,UNKNOWN
+A039__recompress_q40.jpg,A039,ghostsign,2026-03-18T11:19:00Z,False,False,0,UNKNOWN
+A039__resize_640.jpg,A039,ghostsign,2026-03-18T11:19:00Z,False,False,0,UNKNOWN
+A039__screenshot_sim.jpg,A039,ghostsign,2026-03-18T11:19:00Z,False,False,0,UNKNOWN
+A040__crop_10pct.jpg,A040,Unknown,Unknown,False,False,0,UNKNOWN
+A040__original.jpg,A040,Unknown,Unknown,False,False,0,UNKNOWN
+A040__platform_strip.jpg,A040,Unknown,Unknown,False,False,0,UNKNOWN
+A040__recompress_q40.jpg,A040,Unknown,Unknown,False,False,0,UNKNOWN
+A040__resize_640.jpg,A040,Unknown,Unknown,False,False,0,UNKNOWN
+A040__screenshot_sim.jpg,A040,Unknown,Unknown,False,False,0,UNKNOWN
+A041__crop_10pct.jpg,A041,ghostsign,2026-05-15T20:28:00Z,False,False,0,UNKNOWN
+A041__original.jpg,A041,ghostsign,2026-05-15T20:28:00Z,False,False,0,UNKNOWN
+A041__platform_strip.jpg,A041,ghostsign,2026-05-15T20:28:00Z,False,False,0,UNKNOWN
+A041__recompress_q40.jpg,A041,ghostsign,2026-05-15T20:28:00Z,False,False,0,UNKNOWN
+A041__resize_640.jpg,A041,ghostsign,2026-05-15T20:28:00Z,False,False,0,UNKNOWN
+A041__screenshot_sim.jpg,A041,ghostsign,2026-05-15T20:28:00Z,False,False,0,UNKNOWN
+A042__crop_10pct.jpg,A042,Unknown,Unknown,False,False,0,UNKNOWN
+A042__original.jpg,A042,Unknown,Unknown,False,False,0,UNKNOWN
+A042__platform_strip.jpg,A042,Unknown,Unknown,False,False,0,UNKNOWN
+A042__recompress_q40.jpg,A042,Unknown,Unknown,False,False,0,UNKNOWN
+A042__resize_640.jpg,A042,Unknown,Unknown,False,False,0,UNKNOWN
+A042__screenshot_sim.jpg,A042,Unknown,Unknown,False,False,0,UNKNOWN
+A043__crop_10pct.jpg,A043,northcam,2026-03-14T06:23:00Z,False,True,106,SOFT VERIFIED
+A043__original.jpg,A043,northcam,2026-03-14T06:23:00Z,True,False,0,VERIFIED
+A043__platform_strip.jpg,A043,northcam,2026-03-14T06:23:00Z,False,True,239,SOFT VERIFIED
+A043__recompress_q40.jpg,A043,northcam,2026-03-14T06:23:00Z,False,True,195,SOFT VERIFIED
+A043__resize_640.jpg,A043,northcam,2026-03-14T06:23:00Z,False,True,89,SOFT VERIFIED
+A043__screenshot_sim.jpg,A043,northcam,2026-03-14T06:23:00Z,False,True,137,SOFT VERIFIED
+A044__crop_10pct.jpg,A044,northcam,2026-01-12T14:27:00Z,False,True,79,SOFT VERIFIED
+A044__original.jpg,A044,northcam,2026-01-12T14:27:00Z,True,False,0,VERIFIED
+A044__platform_strip.jpg,A044,northcam,2026-01-12T14:27:00Z,False,True,193,SOFT VERIFIED
+A044__recompress_q40.jpg,A044,northcam,2026-01-12T14:27:00Z,False,True,114,SOFT VERIFIED
+A044__resize_640.jpg,A044,northcam,2026-01-12T14:27:00Z,False,True,78,SOFT VERIFIED
+A044__screenshot_sim.jpg,A044,northcam,2026-01-12T14:27:00Z,False,True,87,SOFT VERIFIED
+A045__crop_10pct.jpg,A045,northcam,2026-05-10T16:23:00Z,False,False,39,ALTERED
+A045__original.jpg,A045,northcam,2026-05-10T16:23:00Z,True,False,0,VERIFIED
+A045__platform_strip.jpg,A045,northcam,2026-05-10T16:23:00Z,False,True,106,SOFT VERIFIED
+A045__recompress_q40.jpg,A045,northcam,2026-05-10T16:23:00Z,False,True,74,SOFT VERIFIED
+A045__resize_640.jpg,A045,northcam,2026-05-10T16:23:00Z,False,True,54,SOFT VERIFIED
+A045__screenshot_sim.jpg,A045,northcam,2026-05-10T16:23:00Z,False,True,41,SOFT VERIFIED
+A046__crop_10pct.jpg,A046,Unknown,Unknown,False,False,0,UNKNOWN
+A046__original.jpg,A046,Unknown,Unknown,False,False,0,UNKNOWN
+A046__platform_strip.jpg,A046,Unknown,Unknown,False,False,0,UNKNOWN
+A046__recompress_q40.jpg,A046,Unknown,Unknown,False,False,0,UNKNOWN
+A046__resize_640.jpg,A046,Unknown,Unknown,False,False,0,UNKNOWN
+A046__screenshot_sim.jpg,A046,Unknown,Unknown,False,False,0,UNKNOWN
+A047__crop_10pct.jpg,A047,northcam,2026-04-14T06:44:00Z,False,False,11,ALTERED
+A047__original.jpg,A047,northcam,2026-04-14T06:44:00Z,True,False,0,VERIFIED
+A047__platform_strip.jpg,A047,northcam,2026-04-14T06:44:00Z,False,True,89,SOFT VERIFIED
+A047__recompress_q40.jpg,A047,northcam,2026-04-14T06:44:00Z,False,True,58,SOFT VERIFIED
+A047__resize_640.jpg,A047,northcam,2026-04-14T06:44:00Z,False,True,43,SOFT VERIFIED
+A047__screenshot_sim.jpg,A047,northcam,2026-04-14T06:44:00Z,False,True,50,SOFT VERIFIED
+A048__crop_10pct.jpg,A048,northcam,2026-04-27T18:32:00Z,False,True,89,SOFT VERIFIED
+A048__original.jpg,A048,northcam,2026-04-27T18:32:00Z,True,False,0,VERIFIED
+A048__platform_strip.jpg,A048,northcam,2026-04-27T18:32:00Z,False,True,170,SOFT VERIFIED
+A048__recompress_q40.jpg,A048,northcam,2026-04-27T18:32:00Z,False,True,122,SOFT VERIFIED
+A048__resize_640.jpg,A048,northcam,2026-04-27T18:32:00Z,False,True,81,SOFT VERIFIED
+A048__screenshot_sim.jpg,A048,northcam,2026-04-27T18:32:00Z,False,True,87,SOFT VERIFIED
+A049__crop_10pct.jpg,A049,Unknown,Unknown,False,False,0,UNKNOWN
+A049__original.jpg,A049,Unknown,Unknown,False,False,0,UNKNOWN
+A049__platform_strip.jpg,A049,Unknown,Unknown,False,False,0,UNKNOWN
+A049__recompress_q40.jpg,A049,Unknown,Unknown,False,False,0,UNKNOWN
+A049__resize_640.jpg,A049,Unknown,Unknown,False,False,0,UNKNOWN
+A049__screenshot_sim.jpg,A049,Unknown,Unknown,False,False,0,UNKNOWN
+A050__crop_10pct.jpg,A050,northcam,2026-03-22T19:32:00Z,False,True,42,SOFT VERIFIED
+A050__original.jpg,A050,northcam,2026-03-22T19:32:00Z,True,False,0,VERIFIED
+A050__platform_strip.jpg,A050,northcam,2026-03-22T19:32:00Z,False,True,134,SOFT VERIFIED
+A050__recompress_q40.jpg,A050,northcam,2026-03-22T19:32:00Z,False,True,82,SOFT VERIFIED
+A050__resize_640.jpg,A050,northcam,2026-03-22T19:32:00Z,False,True,78,SOFT VERIFIED
+A050__screenshot_sim.jpg,A050,northcam,2026-03-22T19:32:00Z,False,True,68,SOFT VERIFIED
+A051__crop_10pct.jpg,A051,northcam,2026-02-17T11:14:00Z,False,True,97,SOFT VERIFIED
+A051__original.jpg,A051,northcam,2026-02-17T11:14:00Z,True,False,0,VERIFIED
+A051__platform_strip.jpg,A051,northcam,2026-02-17T11:14:00Z,False,True,223,SOFT VERIFIED
+A051__recompress_q40.jpg,A051,northcam,2026-02-17T11:14:00Z,False,True,183,SOFT VERIFIED
+A051__resize_640.jpg,A051,northcam,2026-02-17T11:14:00Z,False,True,92,SOFT VERIFIED
+A051__screenshot_sim.jpg,A051,northcam,2026-02-17T11:14:00Z,False,True,119,SOFT VERIFIED
+A052__crop_10pct.jpg,A052,northcam,2026-05-21T13:26:00Z,False,True,89,SOFT VERIFIED
+A052__original.jpg,A052,northcam,2026-05-21T13:26:00Z,True,False,0,VERIFIED
+A052__platform_strip.jpg,A052,northcam,2026-05-21T13:26:00Z,False,True,187,SOFT VERIFIED
+A052__recompress_q40.jpg,A052,northcam,2026-05-21T13:26:00Z,False,True,107,SOFT VERIFIED
+A052__resize_640.jpg,A052,northcam,2026-05-21T13:26:00Z,False,True,87,SOFT VERIFIED
+A052__screenshot_sim.jpg,A052,northcam,2026-05-21T13:26:00Z,False,True,70,SOFT VERIFIED
+A053__crop_10pct.jpg,A053,Unknown,Unknown,False,False,0,UNKNOWN
+A053__original.jpg,A053,Unknown,Unknown,False,False,0,UNKNOWN
+A053__platform_strip.jpg,A053,Unknown,Unknown,False,False,0,UNKNOWN
+A053__recompress_q40.jpg,A053,Unknown,Unknown,False,False,0,UNKNOWN
+A053__resize_640.jpg,A053,Unknown,Unknown,False,False,0,UNKNOWN
+A053__screenshot_sim.jpg,A053,Unknown,Unknown,False,False,0,UNKNOWN
+A054__crop_10pct.jpg,A054,northcam,2026-01-23T17:41:00Z,False,True,96,SOFT VERIFIED
+A054__original.jpg,A054,northcam,2026-01-23T17:41:00Z,True,False,0,VERIFIED
+A054__platform_strip.jpg,A054,northcam,2026-01-23T17:41:00Z,False,True,155,SOFT VERIFIED
+A054__recompress_q40.jpg,A054,northcam,2026-01-23T17:41:00Z,False,True,105,SOFT VERIFIED
+A054__resize_640.jpg,A054,northcam,2026-01-23T17:41:00Z,False,True,85,SOFT VERIFIED
+A054__screenshot_sim.jpg,A054,northcam,2026-01-23T17:41:00Z,False,True,80,SOFT VERIFIED
+A055__crop_10pct.jpg,A055,Unknown,Unknown,False,False,0,UNKNOWN
+A055__original.jpg,A055,Unknown,Unknown,False,False,0,UNKNOWN
+A055__platform_strip.jpg,A055,Unknown,Unknown,False,False,0,UNKNOWN
+A055__recompress_q40.jpg,A055,Unknown,Unknown,False,False,0,UNKNOWN
+A055__resize_640.jpg,A055,Unknown,Unknown,False,False,0,UNKNOWN
+A055__screenshot_sim.jpg,A055,Unknown,Unknown,False,False,0,UNKNOWN
+A056__crop_10pct.jpg,A056,Unknown,Unknown,False,False,0,UNKNOWN
+A056__original.jpg,A056,Unknown,Unknown,False,False,0,UNKNOWN
+A056__platform_strip.jpg,A056,Unknown,Unknown,False,False,0,UNKNOWN
+A056__recompress_q40.jpg,A056,Unknown,Unknown,False,False,0,UNKNOWN
+A056__resize_640.jpg,A056,Unknown,Unknown,False,False,0,UNKNOWN
+A056__screenshot_sim.jpg,A056,Unknown,Unknown,False,False,0,UNKNOWN
+A057__crop_10pct.jpg,A057,northcam,2026-02-22T20:45:00Z,False,True,115,SOFT VERIFIED
+A057__original.jpg,A057,northcam,2026-02-22T20:45:00Z,True,False,0,VERIFIED
+A057__platform_strip.jpg,A057,northcam,2026-02-22T20:45:00Z,False,True,203,SOFT VERIFIED
+A057__recompress_q40.jpg,A057,northcam,2026-02-22T20:45:00Z,False,True,147,SOFT VERIFIED
+A057__resize_640.jpg,A057,northcam,2026-02-22T20:45:00Z,False,True,91,SOFT VERIFIED
+A057__screenshot_sim.jpg,A057,northcam,2026-02-22T20:45:00Z,False,True,96,SOFT VERIFIED
+A058__crop_10pct.jpg,A058,northcam,2026-03-17T08:48:00Z,False,True,116,SOFT VERIFIED
+A058__original.jpg,A058,northcam,2026-03-17T08:48:00Z,True,False,0,VERIFIED
+A058__platform_strip.jpg,A058,northcam,2026-03-17T08:48:00Z,False,True,239,SOFT VERIFIED
+A058__recompress_q40.jpg,A058,northcam,2026-03-17T08:48:00Z,False,True,193,SOFT VERIFIED
+A058__resize_640.jpg,A058,northcam,2026-03-17T08:48:00Z,False,True,105,SOFT VERIFIED
+A058__screenshot_sim.jpg,A058,northcam,2026-03-17T08:48:00Z,False,True,133,SOFT VERIFIED
+A059__crop_10pct.jpg,A059,northcam,2026-06-24T11:52:00Z,False,True,86,SOFT VERIFIED
+A059__original.jpg,A059,northcam,2026-06-24T11:52:00Z,True,False,0,VERIFIED
+A059__platform_strip.jpg,A059,northcam,2026-06-24T11:52:00Z,False,True,181,SOFT VERIFIED
+A059__recompress_q40.jpg,A059,northcam,2026-06-24T11:52:00Z,False,True,147,SOFT VERIFIED
+A059__resize_640.jpg,A059,northcam,2026-06-24T11:52:00Z,False,True,89,SOFT VERIFIED
+A059__screenshot_sim.jpg,A059,northcam,2026-06-24T11:52:00Z,False,True,97,SOFT VERIFIED
+A060__crop_10pct.jpg,A060,Unknown,Unknown,False,False,0,UNKNOWN
+A060__original.jpg,A060,Unknown,Unknown,False,False,0,UNKNOWN
+A060__platform_strip.jpg,A060,Unknown,Unknown,False,False,0,UNKNOWN
+A060__recompress_q40.jpg,A060,Unknown,Unknown,False,False,0,UNKNOWN
+A060__resize_640.jpg,A060,Unknown,Unknown,False,False,0,UNKNOWN
+A060__screenshot_sim.jpg,A060,Unknown,Unknown,False,False,0,UNKNOWN
+A061__crop_10pct.jpg,A061,ghostsign,2026-02-20T10:51:00Z,False,False,0,UNKNOWN
+A061__original.jpg,A061,ghostsign,2026-02-20T10:51:00Z,False,False,0,UNKNOWN
+A061__platform_strip.jpg,A061,ghostsign,2026-02-20T10:51:00Z,False,False,0,UNKNOWN
+A061__recompress_q40.jpg,A061,ghostsign,2026-02-20T10:51:00Z,False,False,0,UNKNOWN
+A061__resize_640.jpg,A061,ghostsign,2026-02-20T10:51:00Z,False,False,0,UNKNOWN
+A061__screenshot_sim.jpg,A061,ghostsign,2026-02-20T10:51:00Z,False,False,0,UNKNOWN
+A062__crop_10pct.jpg,A062,northcam,2026-04-18T16:40:00Z,False,True,81,SOFT VERIFIED
+A062__original.jpg,A062,northcam,2026-04-18T16:40:00Z,True,False,0,VERIFIED
+A062__platform_strip.jpg,A062,northcam,2026-04-18T16:40:00Z,False,True,144,SOFT VERIFIED
+A062__recompress_q40.jpg,A062,northcam,2026-04-18T16:40:00Z,False,True,88,SOFT VERIFIED
+A062__resize_640.jpg,A062,northcam,2026-04-18T16:40:00Z,False,True,76,SOFT VERIFIED
+A062__screenshot_sim.jpg,A062,northcam,2026-04-18T16:40:00Z,False,True,67,SOFT VERIFIED
+A063__crop_10pct.jpg,A063,northcam,2026-01-13T20:20:00Z,False,True,56,SOFT VERIFIED
+A063__original.jpg,A063,northcam,2026-01-13T20:20:00Z,True,False,0,VERIFIED
+A063__platform_strip.jpg,A063,northcam,2026-01-13T20:20:00Z,False,True,159,SOFT VERIFIED
+A063__recompress_q40.jpg,A063,northcam,2026-01-13T20:20:00Z,False,True,93,SOFT VERIFIED
+A063__resize_640.jpg,A063,northcam,2026-01-13T20:20:00Z,False,True,84,SOFT VERIFIED
+A063__screenshot_sim.jpg,A063,northcam,2026-01-13T20:20:00Z,False,True,89,SOFT VERIFIED
+A064__crop_10pct.jpg,A064,Unknown,Unknown,False,False,0,UNKNOWN
+A064__original.jpg,A064,Unknown,Unknown,False,False,0,UNKNOWN
+A064__platform_strip.jpg,A064,Unknown,Unknown,False,False,0,UNKNOWN
+A064__recompress_q40.jpg,A064,Unknown,Unknown,False,False,0,UNKNOWN
+A064__resize_640.jpg,A064,Unknown,Unknown,False,False,0,UNKNOWN
+A064__screenshot_sim.jpg,A064,Unknown,Unknown,False,False,0,UNKNOWN
+A065__crop_10pct.jpg,A065,northcam,2026-03-23T14:42:00Z,False,True,107,SOFT VERIFIED
+A065__original.jpg,A065,northcam,2026-03-23T14:42:00Z,True,False,0,VERIFIED
+A065__platform_strip.jpg,A065,northcam,2026-03-23T14:42:00Z,False,True,212,SOFT VERIFIED
+A065__recompress_q40.jpg,A065,northcam,2026-03-23T14:42:00Z,False,True,160,SOFT VERIFIED
+A065__resize_640.jpg,A065,northcam,2026-03-23T14:42:00Z,False,True,90,SOFT VERIFIED
+A065__screenshot_sim.jpg,A065,northcam,2026-03-23T14:42:00Z,False,True,110,SOFT VERIFIED
+A066__crop_10pct.jpg,A066,northcam,2026-02-16T07:50:00Z,False,True,134,SOFT VERIFIED
+A066__original.jpg,A066,northcam,2026-02-16T07:50:00Z,True,False,0,VERIFIED
+A066__platform_strip.jpg,A066,northcam,2026-02-16T07:50:00Z,False,True,308,SOFT VERIFIED
+A066__recompress_q40.jpg,A066,northcam,2026-02-16T07:50:00Z,False,True,234,SOFT VERIFIED
+A066__resize_640.jpg,A066,northcam,2026-02-16T07:50:00Z,False,True,118,SOFT VERIFIED
+A066__screenshot_sim.jpg,A066,northcam,2026-02-16T07:50:00Z,False,True,143,SOFT VERIFIED
+A067__crop_10pct.jpg,A067,Unknown,Unknown,False,False,0,UNKNOWN
+A067__original.jpg,A067,Unknown,Unknown,False,False,0,UNKNOWN
+A067__platform_strip.jpg,A067,Unknown,Unknown,False,False,0,UNKNOWN
+A067__recompress_q40.jpg,A067,Unknown,Unknown,False,False,0,UNKNOWN
+A067__resize_640.jpg,A067,Unknown,Unknown,False,False,0,UNKNOWN
+A067__screenshot_sim.jpg,A067,Unknown,Unknown,False,False,0,UNKNOWN
+A068__crop_10pct.jpg,A068,northcam,2026-02-15T07:51:00Z,False,True,113,SOFT VERIFIED
+A068__original.jpg,A068,northcam,2026-02-15T07:51:00Z,True,False,0,VERIFIED
+A068__platform_strip.jpg,A068,northcam,2026-02-15T07:51:00Z,False,True,195,SOFT VERIFIED
+A068__recompress_q40.jpg,A068,northcam,2026-02-15T07:51:00Z,False,True,134,SOFT VERIFIED
+A068__resize_640.jpg,A068,northcam,2026-02-15T07:51:00Z,False,True,94,SOFT VERIFIED
+A068__screenshot_sim.jpg,A068,northcam,2026-02-15T07:51:00Z,False,True,103,SOFT VERIFIED
+A069__crop_10pct.jpg,A069,ghostsign,2026-05-22T09:48:00Z,False,False,0,UNKNOWN
+A069__original.jpg,A069,ghostsign,2026-05-22T09:48:00Z,False,False,0,UNKNOWN
+A069__platform_strip.jpg,A069,ghostsign,2026-05-22T09:48:00Z,False,False,0,UNKNOWN
+A069__recompress_q40.jpg,A069,ghostsign,2026-05-22T09:48:00Z,False,False,0,UNKNOWN
+A069__resize_640.jpg,A069,ghostsign,2026-05-22T09:48:00Z,False,False,0,UNKNOWN
+A069__screenshot_sim.jpg,A069,ghostsign,2026-05-22T09:48:00Z,False,False,0,UNKNOWN
+A070__crop_10pct.jpg,A070,Unknown,Unknown,False,False,0,UNKNOWN
+A070__original.jpg,A070,Unknown,Unknown,False,False,0,UNKNOWN
+A070__platform_strip.jpg,A070,Unknown,Unknown,False,False,0,UNKNOWN
+A070__recompress_q40.jpg,A070,Unknown,Unknown,False,False,0,UNKNOWN
+A070__resize_640.jpg,A070,Unknown,Unknown,False,False,0,UNKNOWN
+A070__screenshot_sim.jpg,A070,Unknown,Unknown,False,False,0,UNKNOWN
+A071__crop_10pct.jpg,A071,northcam,2026-02-18T08:10:00Z,False,True,92,SOFT VERIFIED
+A071__original.jpg,A071,northcam,2026-02-18T08:10:00Z,True,False,0,VERIFIED
+A071__platform_strip.jpg,A071,northcam,2026-02-18T08:10:00Z,False,True,177,SOFT VERIFIED
+A071__recompress_q40.jpg,A071,northcam,2026-02-18T08:10:00Z,False,True,137,SOFT VERIFIED
+A071__resize_640.jpg,A071,northcam,2026-02-18T08:10:00Z,False,True,111,SOFT VERIFIED
+A071__screenshot_sim.jpg,A071,northcam,2026-02-18T08:10:00Z,False,True,91,SOFT VERIFIED
+A072__crop_10pct.jpg,A072,Unknown,Unknown,False,False,0,UNKNOWN
+A072__original.jpg,A072,Unknown,Unknown,False,False,0,UNKNOWN
+A072__platform_strip.jpg,A072,Unknown,Unknown,False,False,0,UNKNOWN
+A072__recompress_q40.jpg,A072,Unknown,Unknown,False,False,0,UNKNOWN
+A072__resize_640.jpg,A072,Unknown,Unknown,False,False,0,UNKNOWN
+A072__screenshot_sim.jpg,A072,Unknown,Unknown,False,False,0,UNKNOWN
+A073__crop_10pct.jpg,A073,Unknown,Unknown,False,False,0,UNKNOWN
+A073__original.jpg,A073,Unknown,Unknown,False,False,0,UNKNOWN
+A073__platform_strip.jpg,A073,Unknown,Unknown,False,False,0,UNKNOWN
+A073__recompress_q40.jpg,A073,Unknown,Unknown,False,False,0,UNKNOWN
+A073__resize_640.jpg,A073,Unknown,Unknown,False,False,0,UNKNOWN
+A073__screenshot_sim.jpg,A073,Unknown,Unknown,False,False,0,UNKNOWN
+A074__crop_10pct.jpg,A074,northcam,2026-02-11T20:32:00Z,False,True,69,SOFT VERIFIED
+A074__original.jpg,A074,northcam,2026-02-11T20:32:00Z,True,False,0,VERIFIED
+A074__platform_strip.jpg,A074,northcam,2026-02-11T20:32:00Z,False,True,225,SOFT VERIFIED
+A074__recompress_q40.jpg,A074,northcam,2026-02-11T20:32:00Z,False,True,134,SOFT VERIFIED
+A074__resize_640.jpg,A074,northcam,2026-02-11T20:32:00Z,False,True,84,SOFT VERIFIED
+A074__screenshot_sim.jpg,A074,northcam,2026-02-11T20:32:00Z,False,True,91,SOFT VERIFIED
+A075__crop_10pct.jpg,A075,Unknown,Unknown,False,False,0,UNKNOWN
+A075__original.jpg,A075,Unknown,Unknown,False,False,0,UNKNOWN
+A075__platform_strip.jpg,A075,Unknown,Unknown,False,False,0,UNKNOWN
+A075__recompress_q40.jpg,A075,Unknown,Unknown,False,False,0,UNKNOWN
+A075__resize_640.jpg,A075,Unknown,Unknown,False,False,0,UNKNOWN
+A075__screenshot_sim.jpg,A075,Unknown,Unknown,False,False,0,UNKNOWN
+A076__crop_10pct.jpg,A076,northcam,2026-01-16T08:15:00Z,False,True,101,SOFT VERIFIED
+A076__original.jpg,A076,northcam,2026-01-16T08:15:00Z,True,False,0,VERIFIED
+A076__platform_strip.jpg,A076,northcam,2026-01-16T08:15:00Z,False,True,204,SOFT VERIFIED
+A076__recompress_q40.jpg,A076,northcam,2026-01-16T08:15:00Z,False,True,155,SOFT VERIFIED
+A076__resize_640.jpg,A076,northcam,2026-01-16T08:15:00Z,False,True,85,SOFT VERIFIED
+A076__screenshot_sim.jpg,A076,northcam,2026-01-16T08:15:00Z,False,True,107,SOFT VERIFIED
+A077__crop_10pct.jpg,A077,northcam,2026-01-23T13:50:00Z,False,True,44,SOFT VERIFIED
+A077__original.jpg,A077,northcam,2026-01-23T13:50:00Z,True,False,0,VERIFIED
+A077__platform_strip.jpg,A077,northcam,2026-01-23T13:50:00Z,False,True,125,SOFT VERIFIED
+A077__recompress_q40.jpg,A077,northcam,2026-01-23T13:50:00Z,False,True,80,SOFT VERIFIED
+A077__resize_640.jpg,A077,northcam,2026-01-23T13:50:00Z,False,True,44,SOFT VERIFIED
+A077__screenshot_sim.jpg,A077,northcam,2026-01-23T13:50:00Z,False,True,57,SOFT VERIFIED
+A078__crop_10pct.jpg,A078,northcam,2026-02-17T07:38:00Z,False,True,120,SOFT VERIFIED
+A078__original.jpg,A078,northcam,2026-02-17T07:38:00Z,True,False,0,VERIFIED
+A078__platform_strip.jpg,A078,northcam,2026-02-17T07:38:00Z,False,True,226,SOFT VERIFIED
+A078__recompress_q40.jpg,A078,northcam,2026-02-17T07:38:00Z,False,True,174,SOFT VERIFIED
+A078__resize_640.jpg,A078,northcam,2026-02-17T07:38:00Z,False,True,110,SOFT VERIFIED
+A078__screenshot_sim.jpg,A078,northcam,2026-02-17T07:38:00Z,False,True,126,SOFT VERIFIED
+A079__crop_10pct.jpg,A079,Unknown,Unknown,False,False,0,UNKNOWN
+A079__original.jpg,A079,Unknown,Unknown,False,False,0,UNKNOWN
+A079__platform_strip.jpg,A079,Unknown,Unknown,False,False,0,UNKNOWN
+A079__recompress_q40.jpg,A079,Unknown,Unknown,False,False,0,UNKNOWN
+A079__resize_640.jpg,A079,Unknown,Unknown,False,False,0,UNKNOWN
+A079__screenshot_sim.jpg,A079,Unknown,Unknown,False,False,0,UNKNOWN
+A080__crop_10pct.jpg,A080,northcam,2026-06-20T18:54:00Z,False,True,119,SOFT VERIFIED
+A080__original.jpg,A080,northcam,2026-06-20T18:54:00Z,True,False,0,VERIFIED
+A080__platform_strip.jpg,A080,northcam,2026-06-20T18:54:00Z,False,True,246,SOFT VERIFIED
+A080__recompress_q40.jpg,A080,northcam,2026-06-20T18:54:00Z,False,True,204,SOFT VERIFIED
+A080__resize_640.jpg,A080,northcam,2026-06-20T18:54:00Z,False,True,112,SOFT VERIFIED
+A080__screenshot_sim.jpg,A080,northcam,2026-06-20T18:54:00Z,False,True,123,SOFT VERIFIED
+A081__crop_10pct.jpg,A081,northcam,2026-01-18T18:55:00Z,False,False,32,ALTERED
+A081__original.jpg,A081,northcam,2026-01-18T18:55:00Z,True,False,0,VERIFIED
+A081__platform_strip.jpg,A081,northcam,2026-01-18T18:55:00Z,False,True,69,SOFT VERIFIED
+A081__recompress_q40.jpg,A081,northcam,2026-01-18T18:55:00Z,False,True,49,SOFT VERIFIED
+A081__resize_640.jpg,A081,northcam,2026-01-18T18:55:00Z,False,False,35,ALTERED
+A081__screenshot_sim.jpg,A081,northcam,2026-01-18T18:55:00Z,False,False,31,ALTERED
+A082__crop_10pct.jpg,A082,northcam,2026-05-17T13:44:00Z,False,True,128,SOFT VERIFIED
+A082__original.jpg,A082,northcam,2026-05-17T13:44:00Z,True,False,0,VERIFIED
+A082__platform_strip.jpg,A082,northcam,2026-05-17T13:44:00Z,False,True,205,SOFT VERIFIED
+A082__recompress_q40.jpg,A082,northcam,2026-05-17T13:44:00Z,False,True,142,SOFT VERIFIED
+A082__resize_640.jpg,A082,northcam,2026-05-17T13:44:00Z,False,True,97,SOFT VERIFIED
+A082__screenshot_sim.jpg,A082,northcam,2026-05-17T13:44:00Z,False,True,104,SOFT VERIFIED
+A083__crop_10pct.jpg,A083,Unknown,Unknown,False,False,0,UNKNOWN
+A083__original.jpg,A083,Unknown,Unknown,False,False,0,UNKNOWN
+A083__platform_strip.jpg,A083,Unknown,Unknown,False,False,0,UNKNOWN
+A083__recompress_q40.jpg,A083,Unknown,Unknown,False,False,0,UNKNOWN
+A083__resize_640.jpg,A083,Unknown,Unknown,False,False,0,UNKNOWN
+A083__screenshot_sim.jpg,A083,Unknown,Unknown,False,False,0,UNKNOWN

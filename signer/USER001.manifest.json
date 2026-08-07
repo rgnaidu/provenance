@@ -1,0 +1,10 @@
+{
+  "claim": {
+    "asset_id": "USER001",
+    "captured_at": "2026-08-07T14:09:58.429718Z",
+    "hard_binding_sha256": "9bf0b53069840b31642509e29bc68daae4d759ef778512c34c306cd76bc4ad4d"
+  },
+  "issuer": "gayathri-signer",
+  "algorithm": "Ed25519",
+  "signature_b64": "MuvpQF5aDEw3KUHhMWuIXLQty6oMYtzovT12p8AhpEeFb3/od4uWRaKJ0NAz1/19LTt26/9IFYhLhAw2rnOCBA=="
+}

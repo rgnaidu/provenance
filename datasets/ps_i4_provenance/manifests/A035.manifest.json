@@ -1,0 +1,19 @@
+{
+  "claim": {
+    "asset_id": "A035",
+    "capture_device": "unknown-app",
+    "captured_at": "2026-06-13T06:25:00Z",
+    "assertions": [
+      {
+        "action": "c2pa.created",
+        "software": "camera-firmware-4.1"
+      }
+    ],
+    "hard_binding_sha256": "98c75ae340b3100ca4d8d6d0ee77941d32d4102cf38ade2107c50024eb213618",
+    "soft_binding_phash": "101101001100001001111101001010100111110100010100110000110011010"
+  },
+  "signature_b64": "OqdYHghBrQKwwKRwsRSRgXi5ymcH5/cokjbFXf9eHtWMQoMfX/WsgszVPTIJU5o/pRZhtFk1JcGq/44o49Z+Aw==",
+  "issuer": "ghostsign",
+  "public_key_b64": "VFPDhjrSwyNUJrj5BozMLI2rWgev85hIhSfoY6enDN4=",
+  "algorithm": "Ed25519"
+}

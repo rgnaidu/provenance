@@ -1,0 +1,8 @@
+Limitations
+ - Heavy crops may break soft binding. 
+ - Extreme screenshots may reduce ORB matches. 
+ - Large content edits can evade soft matching. 
+ - Some dataset assets do not include manifests. 
+ - Revoked issuers are treated as untrusted provenance. 
+ - Absence of provenance is not evidence of fabrication. 
+ - Verified provenance does not prove that the scene is true or not staged.
