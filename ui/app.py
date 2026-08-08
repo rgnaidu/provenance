@@ -1,198 +1,224 @@
 import streamlit as st
-import sys
+import importlib.util
 import os
+import sys
 
-# Add verifier folder to Python path
+# ----------------------------------------------------
+# Import verifier
+# ----------------------------------------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 VERIFIER_DIR = os.path.abspath(os.path.join(BASE_DIR, '..', 'verifier'))
-sys.path.append(VERIFIER_DIR)
+VERIFIER_PATH = os.path.join(VERIFIER_DIR, 'final_verifier.py')
 
-from final_verifier import verify
+if not os.path.exists(VERIFIER_PATH):
+    raise FileNotFoundError(f'Unable to locate verifier module at {VERIFIER_PATH}')
 
+spec = importlib.util.spec_from_file_location('final_verifier', VERIFIER_PATH)
+if spec is None or spec.loader is None:
+    raise ImportError(f'Cannot load verifier module from {VERIFIER_PATH}')
+
+final_verifier = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(final_verifier)
+verify = final_verifier.verify
+
+# ----------------------------------------------------
+# Page configuration
+# ----------------------------------------------------
 st.set_page_config(
     page_title='Provenance Viewer',
-    page_icon='📷',
-    layout='centered'
+    page_icon='🛡️',
+    layout='wide'
 )
 
-# ---------- Custom CSS ----------
-st.markdown(
-    """
-    <style>
-    .main {
-        padding-top: 1rem;
-    }
-    .status-card {
-        border-radius: 16px;
-        padding: 1rem 1.2rem;
-        margin-bottom: 1rem;
-        border: 1px solid rgba(128,128,128,0.25);
-    }
-    .status-title {
-        font-size: 1.1rem;
-        font-weight: 700;
-        margin-bottom: 0.25rem;
-    }
-    .status-sub {
-        font-size: 0.95rem;
-        opacity: 0.9;
-    }
-    .green {
-        background: rgba(16,185,129,0.12);
-        border-color: rgba(16,185,129,0.35);
-    }
-    .yellow {
-        background: rgba(245,158,11,0.12);
-        border-color: rgba(245,158,11,0.35);
-    }
-    .orange {
-        background: rgba(249,115,22,0.12);
-        border-color: rgba(249,115,22,0.35);
-    }
-    .blue {
-        background: rgba(59,130,246,0.12);
-        border-color: rgba(59,130,246,0.35);
-    }
-    .detail-box {
-        border-radius: 14px;
-        padding: 1rem 1.2rem;
-        border: 1px solid rgba(128,128,128,0.18);
-        background: rgba(255,255,255,0.02);
-    }
-    .footer-note {
-        font-size: 0.9rem;
-        opacity: 0.85;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# ----------------------------------------------------
+# Header
+# ----------------------------------------------------
+st.title('🛡️ Provenance Viewer')
 
-# ---------- Header ----------
-st.title('📷 Provenance Viewer')
-st.write(
-    'Check whether an image has trusted provenance information and whether it appears unchanged or derived from a signed original.'
+st.caption(
+    'Verify media origin and edit history using manifests, trust lists, hard binding, and soft binding.'
 )
 
 uploaded_file = st.file_uploader(
-    'Choose an image',
+    'Upload an image from the dataset',
     type=['jpg', 'jpeg', 'png']
 )
 
+# ----------------------------------------------------
+# Main
+# ----------------------------------------------------
 if uploaded_file is not None:
-
-    st.image(uploaded_file, caption=uploaded_file.name, use_container_width=True)
-
-    st.divider()
 
     result = verify(uploaded_file.name)
 
-    # ---------- Status ----------
-    if result['result'] == 'VERIFIED':
-
-        st.markdown(
-            """
-            <div class='status-card green'>
-                <div class='status-title'>🟢 Verified provenance</div>
-                <div class='status-sub'>
-                    Trusted issuer found and this image matches the signed original reference.
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-
-    elif result['result'] == 'SOFT VERIFIED':
-
-        st.markdown(
-            """
-            <div class='status-card yellow'>
-                <div class='status-title'>🟡 Likely derived from a signed original</div>
-                <div class='status-sub'>
-                    Exact bytes changed, but the image remains visually consistent with the trusted original.
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-
-    elif result['result'] == 'ALTERED':
-
-        st.markdown(
-            """
-            <div class='status-card orange'>
-                <div class='status-title'>🟠 Provenance conflict</div>
-                <div class='status-sub'>
-                    The file does not sufficiently match the trusted original for this asset.
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-
-    else:
-
-        if result['issuer'] == 'Unknown':
-
-            st.markdown(
-                """
-                <div class='status-card blue'>
-                    <div class='status-title'>🔵 No provenance available</div>
-                    <div class='status-sub'>
-                        No manifest was found for this image in the current dataset.
-                    </div>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
-        else:
-
-            st.markdown(
-                """
-                <div class='status-card blue'>
-                    <div class='status-title'>🔵 Untrusted provenance</div>
-                    <div class='status-sub'>
-                        A provenance record exists, but the issuer is not currently trusted.
-                    </div>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
-    # ---------- Details ----------
-    st.subheader('Provenance details')
-
-    hard_status = 'PASS' if result['hard'] else 'FAIL'
-    soft_status = 'PASS' if result['soft'] else 'FAIL'
-
-    st.markdown(
-        f"""
-        <div class='detail-box'>
-            <b>Asset ID:</b> {result['asset_id']}<br><br>
-            <b>Issuer:</b> {result['issuer']}<br><br>
-            <b>Captured at:</b> {result['captured_at']}<br><br>
-            <b>Hard binding:</b> {hard_status}<br><br>
-            <b>Soft binding:</b> {soft_status}<br><br>
-            <b>ORB matches:</b> {result['orb_matches']}
-        </div>
-        """,
-        unsafe_allow_html=True
+    # Image preview
+    st.image(
+        uploaded_file,
+        caption=uploaded_file.name,
+        use_container_width=True
     )
 
     st.divider()
 
-    # ---------- Explanation ----------
-    st.subheader('What this means')
+    # ------------------------------------------------
+    # Verification Summary
+    # ------------------------------------------------
+    st.subheader('📋 Verification Summary')
+
+    c1, c2, c3, c4 = st.columns(4)
+
+    with c1:
+        st.metric('Asset ID', result['asset_id'])
+
+    with c2:
+        st.metric('Issuer', result['issuer'])
+
+    with c3:
+        st.metric(
+            'Hard Binding',
+            'PASS' if result['hard'] else 'FAIL'
+        )
+
+    with c4:
+        st.metric(
+            'Soft Binding',
+            'PASS' if result['soft'] else 'FAIL'
+        )
+
+    st.divider()
+
+    # ------------------------------------------------
+    # Verdict Banner
+    # ------------------------------------------------
+    if result['result'] == 'VERIFIED':
+
+        st.success(
+            '🟢 Verified provenance — trusted issuer and original reference matched.'
+        )
+
+    elif result['result'] == 'SOFT VERIFIED':
+
+        st.warning(
+            '🟡 Likely derived from a signed original — cropping or platform processing detected.'
+        )
+
+    elif result['result'] == 'ALTERED':
+
+        st.error(
+            '🟠 Provenance conflict — file does not sufficiently match the trusted original.'
+        )
+
+    elif result['result'] == 'UNTRUSTED':
+
+        st.warning(
+            f'🟣 Untrusted provenance — manifest found, but issuer `{result["issuer"]}` is not trusted.'
+        )
+
+    else:
+
+        st.info(
+            '🔵 No provenance available — no manifest found for this asset.'
+        )
+
+    st.divider()
+
+    # ------------------------------------------------
+    # Two-column details
+    # ------------------------------------------------
+    left, right = st.columns(2)
+
+    # Manifest information
+    with left:
+
+        st.subheader('📄 Manifest Information')
+
+        st.markdown(
+            f"""
+**Asset ID:** `{result['asset_id']}`
+
+**Issuer:** `{result['issuer']}`
+
+**Captured at:** `{result['captured_at']}`
+
+**Trust status:** `{result['result']}`
+"""
+        )
+
+        if result['issuer'] == 'ghostsign':
+
+            st.caption(
+                'This issuer is present in the trust list but marked as revoked.'
+            )
+
+    # Binding information
+    with right:
+
+        st.subheader('🔐 Binding Information')
+
+        st.markdown(
+            f"""
+**Hard binding:** `{ 'PASS' if result['hard'] else 'FAIL' }`
+
+**Soft binding:** `{ 'PASS' if result['soft'] else 'FAIL' }`
+
+**ORB matches:** `{result['orb_matches']}`
+"""
+        )
+
+        if result['hard']:
+
+            st.caption(
+                'Byte-identical to the trusted original reference.'
+            )
+
+        elif result['soft']:
+
+            st.caption(
+                'Visual similarity passed after transformation.'
+            )
+
+        else:
+
+            st.caption(
+                'Visual similarity did not pass.'
+            )
+
+    st.divider()
+
+    # ------------------------------------------------
+    # Technical details
+    # ------------------------------------------------
+    with st.expander('⚙️ Technical Details', expanded=False):
+
+        st.code(
+            f"""
+File: {uploaded_file.name}
+Asset ID: {result['asset_id']}
+Issuer: {result['issuer']}
+Captured at: {result['captured_at']}
+Hard binding: {result['hard']}
+Soft binding: {result['soft']}
+ORB matches: {result['orb_matches']}
+Final result: {result['result']}
+""",
+            language='text'
+        )
+
+    st.divider()
+
+    # ------------------------------------------------
+    # Interpretation
+    # ------------------------------------------------
+    st.subheader('ℹ️ What this means')
 
     st.markdown(
         """
 - **Verified provenance** → trusted issuer + original reference matched.
-- **Likely derived from a signed original** → the file was changed by cropping, re-encoding, or platform processing, but still appears related to the trusted original.
+- **Likely derived from a signed original** → cropping, re-encoding, or platform processing occurred.
 - **Provenance conflict** → the file does not sufficiently match the trusted original.
-- **No provenance available** → no manifest was found.
 - **Untrusted provenance** → a manifest exists, but the issuer is revoked or not trusted.
-        """
+- **No provenance available** → no manifest was found for this file.
+"""
     )
 
     st.info(
@@ -200,33 +226,40 @@ if uploaded_file is not None:
     )
 
     st.warning(
-        'Provenance verifies **origin and edit history**, not whether the scene is true, honest, or not staged.'
+        'Provenance verifies **origin and edit history**, not whether the depicted scene is true, honest, or not staged.'
     )
 
+# ----------------------------------------------------
+# Empty state
+# ----------------------------------------------------
 else:
+
+    st.markdown('### Try these examples')
 
     st.markdown(
         """
-        ### Try these examples
+- `A000__original.jpg` → Verified provenance
+- `A000__crop_10pct.jpg` → Likely derived from a signed original
+- `A001__original.jpg` → No provenance available
+- `A069__original.jpg` → Untrusted provenance (ghostsign)
+"""
+    )
 
-        - **A000__original.jpg** → Verified provenance
-        - **A000__crop_10pct.jpg** → Likely derived from a signed original
-        - **A001__original.jpg** (revoked issuer) → Untrusted provenance
-        - **A070__original.jpg** (no manifest) → No provenance available
+    st.divider()
+
+    st.markdown('### Architecture')
+
+    st.markdown(
         """
+`Upload → Manifest Lookup → Trust Check → Hard Binding → Soft Binding → Verdict → UI`
+"""
     )
 
-    st.caption(
-        'Upload an image from the dataset to see issuer, capture time, and provenance status.'
-    )
-
+# ----------------------------------------------------
+# Footer
+# ----------------------------------------------------
 st.divider()
 
-st.markdown(
-    """
-    <div class='footer-note'>
-        Built for the <b>Provenance, Not Detection</b> project — emphasizing cryptographic provenance, uncertainty, and user understanding rather than binary real/fake labels.
-    </div>
-    """,
-    unsafe_allow_html=True
+st.caption(
+    'Built for the **Provenance, Not Detection** project — emphasizing uncertainty, trust, and user understanding rather than binary real/fake labels.'
 )

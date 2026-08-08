@@ -2,7 +2,9 @@ import os
 import json
 import cv2
 
-# Absolute paths based on this file location
+# ----------------------------------------------------
+# Absolute paths
+# ----------------------------------------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 ASSET_FOLDER = os.path.abspath(
@@ -17,21 +19,19 @@ TRUST_LIST_PATH = os.path.abspath(
     os.path.join(BASE_DIR, '..', 'datasets', 'ps_i4_provenance', 'trust_list.json')
 )
 
-print('ASSET_FOLDER:', ASSET_FOLDER)
-print('MANIFEST_FOLDER:', MANIFEST_FOLDER)
-print('TRUST_LIST_PATH:', TRUST_LIST_PATH)
 
-
-# -----------------------------
-# Get asset id from file name
-# -----------------------------
+# ----------------------------------------------------
+# Extract asset id from filename
+# Example: A001__crop_10pct.jpg -> A001
+# ----------------------------------------------------
 def get_asset_id(file_name):
+
     return file_name.split('__')[0]
 
 
-# -----------------------------
+# ----------------------------------------------------
 # Read manifest
-# -----------------------------
+# ----------------------------------------------------
 def read_manifest(asset_id):
 
     manifest_path = os.path.join(
@@ -39,23 +39,21 @@ def read_manifest(asset_id):
         f'{asset_id}.manifest.json'
     )
 
-    print('Looking for manifest:', manifest_path)
-
     if not os.path.exists(manifest_path):
-        print('Manifest not found')
         return None
 
     with open(manifest_path, 'r') as f:
         return json.load(f)
+
+
+# ----------------------------------------------------
 # Trust check
-# -----------------------------
+# ----------------------------------------------------
 def check_trust(manifest):
 
     issuer = manifest['issuer']
 
-    trust_path = TRUST_LIST_PATH
-
-    with open(trust_path, 'r') as f:
+    with open(TRUST_LIST_PATH, 'r') as f:
         trust_data = json.load(f)
 
     for entry in trust_data['trust_list']:
@@ -64,12 +62,13 @@ def check_trust(manifest):
 
             return entry['status'] == 'active', issuer
 
+    # Issuer not present in trust list
     return False, issuer
 
 
-# -----------------------------
-# ORB matching
-# -----------------------------
+# ----------------------------------------------------
+# ORB matching (soft binding)
+# ----------------------------------------------------
 def orb_matching(original, test_image):
 
     img1 = cv2.imread(original, 0)
@@ -100,16 +99,18 @@ def orb_matching(original, test_image):
     return len(good)
 
 
-# -----------------------------
+# ----------------------------------------------------
 # Verify one file
-# -----------------------------
+# ----------------------------------------------------
 def verify(file_name):
 
     asset_id = get_asset_id(file_name)
 
     manifest = read_manifest(asset_id)
 
-    # No manifest
+    # ------------------------------------------------
+    # No manifest found
+    # ------------------------------------------------
     if manifest is None:
 
         return {
@@ -122,16 +123,21 @@ def verify(file_name):
             'orb_matches': 0
         }
 
-    # Trust check
+    # ------------------------------------------------
+    # Manifest exists -> trust check
+    # ------------------------------------------------
     trusted, issuer = check_trust(manifest)
 
     captured_at = manifest['claim']['captured_at']
 
+    # ------------------------------------------------
+    # Manifest found but issuer is revoked/untrusted
+    # ------------------------------------------------
     if not trusted:
 
         return {
-            'result': 'UNKNOWN',
-            'issuer': issuer,
+            'result': 'UNTRUSTED',
+            'issuer': issuer,          # e.g., ghostsign
             'captured_at': captured_at,
             'asset_id': asset_id,
             'hard': False,
@@ -139,7 +145,9 @@ def verify(file_name):
             'orb_matches': 0
         }
 
-    # Treat public __original files as verified originals
+    # ------------------------------------------------
+    # Original signed image
+    # ------------------------------------------------
     if '__original' in file_name:
 
         return {
@@ -152,7 +160,9 @@ def verify(file_name):
             'orb_matches': 0
         }
 
-    # Soft binding
+    # ------------------------------------------------
+    # Soft binding for transformed variants
+    # ------------------------------------------------
     original_file = os.path.join(
         ASSET_FOLDER,
         f'{asset_id}__original.jpg'
@@ -177,6 +187,9 @@ def verify(file_name):
             'orb_matches': matches
         }
 
+    # ------------------------------------------------
+    # Soft binding failed
+    # ------------------------------------------------
     return {
         'result': 'ALTERED',
         'issuer': issuer,
@@ -188,9 +201,9 @@ def verify(file_name):
     }
 
 
-# -----------------------------
-# Test all images
-# -----------------------------
+# ----------------------------------------------------
+# Terminal test (optional)
+# ----------------------------------------------------
 if __name__ == '__main__':
 
     for file_name in os.listdir(ASSET_FOLDER):
